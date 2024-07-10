@@ -1,0 +1,23 @@
+package LabQ;
+
+public class ArithmeticException {
+
+	
+	public static void main(String[] args) {
+        try {
+            
+            int numerator = 10;
+            int denominator = 0; 
+            int result = numerator / denominator;
+
+            // If division is successful
+            System.out.println("Result of division: " + result);
+        } catch (ArithmeticException e) {
+            //  ArithmeticException  division by zero 
+            System.out.println("Error: Division by zero");
+            
+            // System.out.println("Exception details: " + e);
+        }
+    }
+}
+}

@@ -1,0 +1,10 @@
+package July4;
+
+public class array {
+	
+	int[] student = new int[5];
+	
+	
+    
+
+}

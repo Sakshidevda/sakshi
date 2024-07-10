@@ -1,0 +1,19 @@
+package String;
+
+public class Sdemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s = "welcome";
+		String s2 = "welcome";
+		
+		String s3 = new String  ("welcome");
+		
+		System.out.println(s == s2);
+		System.out.println(s == s3);
+		System.out.println(s);
+	}
+
+}

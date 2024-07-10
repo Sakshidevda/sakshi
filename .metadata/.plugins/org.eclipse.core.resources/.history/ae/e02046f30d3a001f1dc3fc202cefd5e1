@@ -1,0 +1,5 @@
+package July4;
+
+public abstract class Vehicle {
+
+}

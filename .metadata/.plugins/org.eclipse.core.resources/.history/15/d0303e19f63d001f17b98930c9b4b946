@@ -1,0 +1,26 @@
+package String;
+
+public class Substring {
+
+	public static void main(String[] args) {
+		
+		String s = "Vikas";
+		System.out.println(s.length());
+		s.length();
+		
+		
+		String ss  = s.substring(2);
+		System.out.println(ss);
+		
+		s.contains(ss);
+		
+		char arr[] = s.toCharArray();
+		
+		for(char pp : arr) {
+			System.out.println(pp);
+		}
+		
+		System.out.println(s);
+	}
+
+}

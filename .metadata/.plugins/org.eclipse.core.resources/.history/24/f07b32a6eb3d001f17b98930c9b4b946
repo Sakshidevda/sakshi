@@ -1,0 +1,23 @@
+package String;
+
+public class DempoS {
+	
+	public void main(String[]args) {
+		
+		String s = "sakshi"; // Literal
+		
+		System.out.println(s);
+		
+		
+		String kk = new String("Sagar");// by using new keyword
+		
+		//string are immutable in java
+		
+		s = s+ "Sharma";
+		System.out.println(s);
+		
+		
+		
+	}
+
+}

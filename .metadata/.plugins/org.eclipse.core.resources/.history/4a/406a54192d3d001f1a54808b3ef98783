@@ -1,0 +1,24 @@
+package Collection;
+
+public class Vector {
+
+	public static void main(String[] args) {
+		
+		
+Vector<String> ppp = new Vector <String> ();
+		
+		ppp.add("Banana");
+		ppp.add("papaya");
+		ppp.add("Lichi");
+		ppp.add("Guvava");
+		
+		ppp.addAll(array);
+		System.out.println("add array with vector");
+		
+		for(String o : ppp) {
+			System.out.println(o);
+		}
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package July5;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		System.out.println("normal");
+		
+		Demo.main();
+		
+
+	}
+	
+	public static void main(String m) {
+		
+		System.out.println(" i am string parameter ");
+		
+
+}
+	
+	public static void main() {
+		
+		System.out.println(" i am  no args");
+		
+}
+}
+
+
+
+
